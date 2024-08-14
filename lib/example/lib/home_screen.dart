@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:theme_manager/theme_manager.dart';
+import 'package:app_theme_manager/theme_manager.dart';
 
 class HomeScreen extends StatelessWidget {
   @override

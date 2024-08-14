@@ -1,6 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:theme_manager/theme_manager.dart';
-
+import 'package:app_theme_manager/theme_manager.dart';
 void main() {
   test('ThemeManager toggles between light and dark themes', () {
     final themeManager = ThemeManager();

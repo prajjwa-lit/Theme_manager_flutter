@@ -1,8 +1,8 @@
-name: theme_manager
-description: "A new Flutter package project."
+name: app_theme_manager
+description: "A theme manager for flutter apps."
 version: 0.0.1
-homepage:
-
+homepage: https://github.com/prajjwa-lit/Theme_manager_flutter
+repository: https://github.com/prajjwa-lit/Theme_manager_flutter
 environment:
   sdk: ^3.5.0
   flutter: ">=1.17.0"
