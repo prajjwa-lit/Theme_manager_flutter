@@ -1,12 +1,17 @@
 import 'package:flutter_test/flutter_test.dart';
-
 import 'package:theme_manager/theme_manager.dart';
 
 void main() {
-  test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
+  test('ThemeManager toggles between light and dark themes', () {
+    final themeManager = ThemeManager();
+    expect(themeManager.isDarkMode, false);
+
+    themeManager.toggleTheme();
+    expect(themeManager.isDarkMode, true);
+
+    themeManager.toggleTheme();
+    expect(themeManager.isDarkMode, false);
   });
+
+  // Add more tests as needed
 }
